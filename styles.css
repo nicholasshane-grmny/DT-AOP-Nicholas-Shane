@@ -1,0 +1,646 @@
+* {
+    margin: 0; mi
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    background: #F8F7F0;
+    color: #55564E;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+
+
+
+.kadek-container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+
+.kadek-header {
+    width: 100%;
+    min-height: 170px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+    background: #DCE8D8;
+    border: 2px solid #C8D8C2;
+    border-radius: 15px;
+    margin-bottom: 12px;
+}
+
+
+
+
+.kadek-header-photo {
+    width: 120px;
+    height: 120px;
+    flex: 0 0 120px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+    display: block;
+}
+
+
+
+
+.kadek-header-text {
+    flex: 1;
+    min-width: 0;
+}
+
+
+
+
+.kadek-header-text h1 {
+    font-size: 30px;
+    color: #4F6550;
+    margin-bottom: 8px;
+}
+
+
+
+
+.kadek-header-text p {
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #687765;
+}
+
+
+
+
+.kadek-content {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+
+
+
+
+.kadek-card {
+    min-width: 0;
+    background: #FFFFFF;
+    border: 2px solid #E8E2D6;
+    border-radius: 12px;
+    padding: 18px;
+}
+
+
+
+
+.kadek-card h2 {
+    color: #627A61;
+    font-size: 19px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #E8E2D6;
+}
+
+
+
+
+.kadek-personal {
+    background: #FFFFFF;
+}
+
+
+
+
+.kadek-info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+
+
+
+.kadek-info-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+
+
+.kadek-info-photo {
+    width: 36px;
+    height: 36px;
+    flex: 0 0 36px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 2px solid #DCE8D8;
+    display: block;
+}
+
+
+
+
+.kadek-info-item p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+
+
+.kadek-profile {
+    background: #F5F8F2;
+}
+
+
+
+
+.kadek-profile-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+
+.kadek-profile-photo {
+    width: 95px;
+    height: 95px;
+    flex: 0 0 95px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 3px solid #DCE8D8;
+    display: block;
+}
+
+
+
+
+.kadek-profile-text {
+    min-width: 0;
+}
+
+
+
+
+.kadek-profile-text h3 {
+    color: #536A52;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+
+
+
+.kadek-profile-text p {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+
+
+
+.kadek-education {
+    background: #FFFFFF;
+}
+
+
+
+
+.kadek-education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+
+
+
+.kadek-education-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+
+
+.kadek-education-item img {
+    width: 68px;
+    height: 68px;
+    flex: 0 0 68px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 2px solid #DCE8D8;
+    display: block;
+}
+
+
+
+
+.kadek-education-item h3 {
+    color: #627A61;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+
+
+.kadek-education-item p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+
+
+.kadek-skills {
+    background: #F5F8F2;
+}
+
+
+
+
+.kadek-skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+
+
+
+.kadek-skill-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+
+
+.kadek-skill-item img {
+    width: 68px;
+    height: 68px;
+    flex: 0 0 68px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 2px solid #DCE8D8;
+    display: block;
+}
+
+
+
+
+.kadek-skill-item h3 {
+    color: #627A61;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+
+
+.kadek-skill-item p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+
+
+.kadek-description {
+    grid-column: 1 / -1;
+    background: #EEE6D8;
+}
+
+
+
+
+.kadek-description p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+
+
+.kadek-bottom {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 12px;
+    min-width: 0;
+}
+
+
+
+
+.kadek-experience,
+.kadek-contact {
+    background: #FFFFFF;
+}
+
+
+
+
+.kadek-experience-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+
+.kadek-experience-content img {
+    width: 85px;
+    height: 85px;
+    flex: 0 0 85px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 2px solid #DCE8D8;
+    display: block;
+}
+
+
+
+
+.kadek-experience-content h3 {
+    color: #627A61;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+
+
+
+.kadek-experience-content p,
+.kadek-contact p {
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+
+
+
+.kadek-contact p {
+    margin-bottom: 8px;
+}
+
+
+
+
+.kadek-footer {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+
+
+
+.kadek-footer a {
+    color: #617A60;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+
+
+.kadek-footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+@media (max-width: 650px) {
+    body {
+        padding: 10px;
+    }
+
+
+
+
+    .kadek-header {
+        min-height: 120px;
+        gap: 15px;
+        padding: 15px;
+    }
+
+
+
+
+    .kadek-header-photo {
+        width: 85px;
+        height: 85px;
+        flex-basis: 85px;
+    }
+
+
+
+
+    .kadek-header-text h1 {
+        font-size: 21px;
+    }
+
+
+
+
+    .kadek-header-text p {
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+
+
+
+    .kadek-content {
+        gap: 8px;
+    }
+
+
+
+
+    .kadek-card {
+        padding: 12px;
+    }
+
+
+
+
+    .kadek-card h2 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+
+
+
+    .kadek-info-item {
+        gap: 7px;
+    }
+
+
+
+
+    .kadek-info-photo {
+        width: 30px;
+        height: 30px;
+        flex-basis: 30px;
+    }
+
+
+
+
+    .kadek-info-item p {
+        font-size: 11px;
+    }
+
+
+
+
+    .kadek-profile-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+
+
+    .kadek-profile-photo {
+        width: 75px;
+        height: 75px;
+        flex-basis: 75px;
+    }
+
+
+
+
+    .kadek-profile-text h3 {
+        font-size: 13px;
+    }
+
+
+
+
+    .kadek-profile-text p {
+        font-size: 11px;
+    }
+
+
+
+
+    .kadek-education-item,
+    .kadek-skill-item {
+        gap: 7px;
+    }
+
+
+
+
+    .kadek-education-item img,
+    .kadek-skill-item img {
+        width: 48px;
+        height: 48px;
+        flex-basis: 48px;
+    }
+
+
+
+
+    .kadek-education-item h3,
+    .kadek-skill-item h3 {
+        font-size: 11px;
+    }
+
+
+
+
+    .kadek-education-item p,
+    .kadek-skill-item p {
+        font-size: 10px;
+    }
+
+
+
+
+    .kadek-description p {
+        font-size: 12px;
+    }
+
+
+
+
+    .kadek-bottom {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+
+
+
+
+    .kadek-experience-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+
+
+
+    .kadek-experience-content img {
+        width: 60px;
+        height: 60px;
+        flex-basis: 60px;
+    }
+
+
+
+
+    .kadek-experience-content h3 {
+        font-size: 12px;
+    }
+
+
+
+
+    .kadek-experience-content p,
+    .kadek-contact p {
+        font-size: 10px;
+    }
+
+
+
+
+    .kadek-footer a {
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+

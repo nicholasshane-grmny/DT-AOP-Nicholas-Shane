@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.nicho-body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #2f6db5;
+  padding: 20px;
+}
+
+
+
+
+.nicho-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+
+
+.nicho-header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background-color: #e3eefc;
+  border: 3px solid #3b73bd;
+  border-radius: 28px;
+  padding: 30px 40px;
+  margin-bottom: 25px;
+}
+
+
+
+
+.nicho-foto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #a9c6ea;
+  flex-shrink: 0;
+}
+
+
+
+
+.nicho-foto-img {
+  width: 100%;
+  height: 100%;
+  object-fit: ;
+  display: block;
+}
+
+
+
+
+.nicho-identitas {
+  flex: 1;
+}
+
+
+
+
+.nicho-nama {
+  font-size: 48px;
+  color: #1f5fae;
+}
+
+
+
+
+.nicho-garis {
+  border: none;
+  border-top: 3px solid #3b73bd;
+  margin: 12px 0;
+}
+
+
+
+
+.nicho-status {
+  font-size: 22px;
+  color: #3b73bd;
+}
+
+
+
+
+.nicho-isi {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+
+
+
+.nicho-kolom {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+
+.nicho-kotak {
+  background-color: #ffffff;
+  border: 3px solid #3b73bd;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+
+
+.nicho-judul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #e3eefc;
+  padding: 14px 20px;
+}
+
+
+
+
+.nicho-judul-teks {
+  font-size: 24px;
+  color: #1f5fae;
+}
+
+
+
+
+.nicho-ikon-bulat {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #3b73bd;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+
+
+
+.nicho-ikon-polos {
+  font-size: 34px;
+  color: #3b73bd;
+}
+
+
+
+
+.nicho-daftar {
+  list-style: none;
+  padding: 18px 25px 22px 25px;
+}
+
+
+
+
+.nicho-daftar li {
+  position: relative;
+  padding: 8px 0 8px 22px;
+  border-bottom: 2px solid #3b73bd;
+  margin-bottom: 14px;
+  font-size: 16px;
+}
+
+
+
+
+.nicho-daftar li:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+.nicho-daftar li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #3b73bd;
+}
+
+
+
+
+.nicho-daftar-ikon li {
+  padding-left: 40px;
+}
+
+
+
+
+.nicho-daftar-ikon li::before {
+  display: none;
+}
+
+
+
+
+.nicho-ikon-kecil {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 22px;
+  color: #3b73bd;
+}
+
+
+
+
+.nicho-minat {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 15px;
+}
+
+
+
+
+.nicho-minat-ikon {
+  font-size: 38px;
+}
+
+
+
+
+.nicho-tentang-teks {
+  padding: 20px 25px;
+  font-size: 16px;
+  line-height: 2;
+  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 31px, #3b73bd 31px, #3b73bd 33px);
+}
+
+
+
+
+.nicho-menu {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+
+
+
+.nicho-tautan {
+  text-decoration: none;
+  background-color: #3b73bd;
+  color: #ffffff;
+  padding: 10px 22px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+
+
+
+.nicho-tautan:hover {
+  background-color: #5a93d8;
+}
+
+
+
+
+@media (max-width: 650px) {
+  .nicho-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+
+
+  .nicho-isi {
+    flex-direction: column;
+  }
+
+
+
+
+  .nicho-nama {
+    font-size: 34px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
